@@ -1,0 +1,10 @@
+{
+    "name": "simple-http"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "node-static": ">= 0.5.6"
+  },
+    "main": "simple-http.js",
+    "bin": { "simple-http": "./simple-http.js" }
+}
