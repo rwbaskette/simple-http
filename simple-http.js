@@ -38,7 +38,7 @@ if (args.length > 0 && args.length < 4) {
 dir = path.resolve(dir);
 
 var stats = fsio.lstatSync(dir);
-if (!stats.isDirectory) {
+if (!stats.isDirectory()) {
     showUsageAndExit();
 }
 
